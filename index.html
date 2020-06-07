@@ -34,7 +34,7 @@
 
         </div>
     </nav>
- <header class="jumbotron">
+    <header class="jumbotron">
 
         <!-- Main component for a primary marketing message or call to action -->
 
@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-xs-12 col-md-3">
                     <p style="padding:15px;"></p>
-                    <a type="button" class="btn btn-warning btn-block" href="#card">Reserve Table</a>
+                    <a type="button" class="btn btn-warning btn-block" href="#reserve">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
         </div>
         <div id="reserve-table" class="row row-content align-items-center">
             <div class="col-12 col-sm-8 offset-sm-2">
-                <div class="card">
+                <div class="card" id="reserve">
                     <div class="card-header text-white bg-warning mb-0">
                         <h3>Reserve a Table</h3>
                     </div>
@@ -139,16 +139,18 @@
                                         <label class="form-check-label" for="inlineRadio6">6</label>
                                     </div>
                                 </div>
-                            </div><!--End of form group row-->
+                            </div>
+                            <!--End of form group row-->
                             <div class="form-group row">
                                 <label class="col-md-2" for="date">Date and Time</label>
                                 <div id="dateid" class="col-md-3 align-self-center">
-                                    <input class="form-control" type="dateid" name="date" id="inputdate" placeholder="Date">
+                                    <input class="form-control" type="date" name="date" id="inputdate" placeholder="Date">
                                 </div>
                                 <div id="timeid" class="col-md-3 align-self-center">
-                                    <input class="form-control" type="timeid" name="time" id="inputdate" placeholder="Time">
+                                    <input class="form-control" type="time" name="time" id="inputdate" placeholder="Time">
                                 </div>
-                            </div><!--End of form group row-->
+                            </div>
+                            <!--End of form group row-->
                             <div class="form-group row">
                                 <div class="offset-md-2 col-md-2">
                                     <button class="btn btn-primary" type="submit">Reserve</button>
@@ -158,53 +160,53 @@
                     </div>
                 </div>
             </div>
-    </div>
-    <!---------------------------FOOTER----------------------------------------------->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+        </div>
+        <!---------------------------FOOTER----------------------------------------------->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 offset-1 col-sm-2">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 col-sm-5">
+                        <h5>Our Address</h5>
+                        <address>
+                            121, Clear Water Bay Road<br>
+                            Clear Water Bay, Kowloon<br>
+                            HONG KONG<br>
+                            <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+                            <i class="fa fa-phone fa-fax fa-lg"></i> +852 8765 4321<br>
+                            <i class="fa fa-phone fa-envelope fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        </address>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
-                        <i class="fa fa-phone fa-fax fa-lg"></i> +852 8765 4321<br>
-                        <i class="fa fa-phone fa-envelope fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
-                    </address>
-                </div>
-                <div class="col-12 col-sm-4 align-self-center">
-                    <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <p>© Copyright 2018 Ristorante Con Fusion</p>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </footer>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
