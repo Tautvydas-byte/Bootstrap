@@ -1,5 +1,5 @@
 //
-lt-gray: #ddd;
+$lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
@@ -75,4 +75,31 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+//LOGIN
+.modal-body{
+    background: $background-pale;
+    
+    .modal-header{
+        background:$background-dark;
+        h4 {
+            color: floralwhite;
+            .close{
+                color: floralwhite;
+            }
+        }
+    }
+}
+//Reserve a table
+.modal-content{
+    background: $background-pale;
+    .modal-header{
+        background:$background-dark;
+        h3 {
+            color: floralwhite;
+            .close{
+                color: floralwhite;
+            }
+        }
+    }
 }

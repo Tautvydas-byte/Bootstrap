@@ -55,3 +55,24 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+/*Login modal*/
+.modal-header {
+  background-color: #512DA8;
+  
+}
+.modal-body{
+  background-color: #D1C4E9;
+}
+h4 {
+  color: floralwhite;
+}
+.close{
+  color: floralwhite;
+}
+/*Reserve a table modal*/
+.modal-content{
+  background-color: #D1C4E9;
+}
+h3{
+  color: floralwhite;
+}
