@@ -82,14 +82,15 @@ body{
     
     .modal-header{
         background:$background-dark;
-        h4 {
-            color: floralwhite;
-            .close{
-                color: floralwhite;
-            }
-        }
     }
 }
+#modalDismiss{
+    color: floralwhite;
+}
+h4 {
+    color: floralwhite;
+}
+
 //Reserve a table
 .modal-content{
     background: $background-pale;
@@ -97,9 +98,9 @@ body{
         background:$background-dark;
         h3 {
             color: floralwhite;
-            .close{
-                color: floralwhite;
-            }
         }
     }
+}
+#Xclose{
+    color: floralwhite;
 }
